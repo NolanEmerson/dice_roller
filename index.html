@@ -4,6 +4,47 @@
         <title>Dice Roller</title>
     </head>
     <body>
-        
+        <div class="container" id="container">
+            <header id="header" class='header'>
+                <h1>Dice Roller</h1>
+            </header>
+            <main class="selectorArea">
+                <div id="diceHolder" class="diceHolder">
+                    <div class="diceArea">
+                        <label for="d4">D4</label>
+                        <input type="text" name='d4'>
+                    </div>
+                    <div class="diceArea">
+                        <label for="d6">D6</label>
+                        <input type="text" name='d6'>
+                    </div>
+                    <div class="diceArea">
+                        <label for="d8">D8</label>
+                        <input type="text" name='d8'>
+                    </div>
+                    <div class="diceArea">
+                        <label for="d10">D10</label>
+                        <input type="text" name='d10'>
+                    </div>
+                    <div class="diceArea">
+                        <label for="dpercent">D%</label>
+                        <input type="text" name='dpercent'>
+                    </div>
+                    <div class="diceArea">
+                        <label for="d12">D12</label>
+                        <input type="text" name='d12'>
+                    </div>
+                    <div class="diceArea">
+                        <label for="d20">D20</label>
+                        <input type="text" name='d20'>
+                    </div>
+                </div>
+            </main>
+            <aside class="displayHolder">
+                <div>You rolled...</div>
+                <div class="amountRolled"></div>
+                <div class="rollResult"></div>
+            </aside>
+        </div>
     </body>
 </html>
