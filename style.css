@@ -1,0 +1,52 @@
+html {
+    font-size: 4vmin;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    font-size: 1rem;
+}
+
+.header {
+    height: 15%;
+    text-align: center;
+}
+
+.header > h1 {
+    margin: 0;
+}
+
+.mainArea {
+    width: 100%;
+    height: 85%;
+    margin: 0;
+    font-size: 0;
+}
+
+.mainArea > * {
+    font-size: 1rem;
+}
+
+.selectorArea {
+    display: inline-block;
+    width: 60%;
+}
+
+.displayHolder {
+    display: inline-block;
+    width: 40%;
+}
+
+.diceHolder {
+    display: inline-flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
